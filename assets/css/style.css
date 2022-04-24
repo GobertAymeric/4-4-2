@@ -1,0 +1,232 @@
+/*     Mobile     */
+body {
+    background-image: url(../images/terrain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bord
+{
+    position: absolute;
+    width: 70%;
+    height: 85%;
+    border: 0.3rem solid white;
+    top: 6%;
+    left: 13%;
+}
+
+.rectangle_c {
+    position: absolute;
+    width: 70%;
+    height: 0%;
+    background: white;
+    border: 0.1rem solid white;
+    top: 47%;
+    left: 13.5%;
+}
+
+.cercle {
+    position: absolute;
+    width: 15%;
+    height: 6%;
+    left: 41%;
+    top: 43.5%;
+    border: 0.3rem solid white;
+    border-radius: 50%;
+}
+
+.point_c {
+    position: absolute;
+    width: 2%;
+    height: 1%;
+    left: 48.7%;
+    top: 46.8%;
+    background: white;
+    border-radius: 50%;
+}
+
+.g_rectangle_g {
+    position: absolute;
+    width: 30%;
+    height: 7%;
+    left: 33%;
+    top: 6%;
+    border: 0.3rem solid white;
+}
+
+.g_rectangle_d {
+    position: absolute;
+    width: 30%;
+    height: 7%;
+    left: 33%;
+    top: 84%;
+    border: 0.3rem solid white;
+}
+
+.p_rectangle_g {
+    position: absolute;
+    width: 15%;
+    height: 3.5%;
+    left: 41%;
+    top: 6%;
+    border: 0.3rem solid white;
+}
+
+.p_rectangle_d {
+    position: absolute;
+    width: 15%;
+    height: 3.5%;
+    left: 41%;
+    top: 87.5%;
+    border: 0.3rem solid white;
+}
+
+.but_g {
+    position: absolute;
+    width: 10%;
+    height: 2.5%;
+    left: 43.5%;
+    top: 2.8%;
+    border: 0.3rem solid white;
+}
+
+.but_d {
+    position: absolute;
+    width: 10%;
+    height: 2.5%;
+    left: 43.5%;
+    top: 91.7%;
+    border: 0.3rem solid white;
+}
+
+.penalty_g {
+    position: absolute;
+    width: 2%;
+    height: 1%;
+    left: 48.7%;
+    top: 12%;
+    background: white;
+    border-radius: 50%;
+}
+
+.penalty_d {
+    position: absolute;
+    width: 2%;
+    height: 1%;
+    left: 48.7%;
+    top: 85.5%;
+    background: white;
+    border-radius: 50%;
+}
+
+.demi_cercle_g {
+    position: absolute;
+    height: 1%;
+    width: 10%;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    left: 43.5%;
+    top: 13.7%;
+    border: 0.3rem solid white;
+    transform: rotate(180deg);
+}
+
+.demi_cercle_d {
+    position: absolute;
+    height: 1%;
+    width: 10%;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    left: 43%;
+    top: 82.3%;
+    border: 0.3rem solid white;
+}
+
+.corner_hg {
+    position: absolute;
+    width: 5%;
+    height: 2%;
+    border: solid 0.3rem white;
+    border-radius: 0 100% 0 0;
+    left: 77.8%;
+    top: 6%;
+    transform: rotate(180deg);
+}
+
+.corner_hd {
+    position: absolute;
+    width: 5%;
+    height: 2%;
+    border: solid 0.3rem white;
+    border-radius: 100% 0 0 0;
+    left: 77.8%;
+    top: 89%;
+    transform: rotate(0deg);
+}
+
+.corner_bd {
+    position: absolute;
+    width: 5%;
+    height: 2%;
+    border: solid 0.3rem white;
+    border-radius: 0 100% 0 0;
+    left: 13%;
+    top: 89%;
+    transform: rotate(360deg);
+}
+
+.corner_bg {
+    position: absolute;
+    width: 5%;
+    height: 2%;
+    border: solid 0.3rem white;
+    border-radius: 100% 0 0 0;
+    left: 13%;
+    top: 6%;
+    transform: rotate(180deg);
+}
+
+.banc_g {
+    position: absolute;
+    width: 5%;
+    height: 10%;
+    left: 4%;
+    top: 50%;
+    background: white;
+    border: 0.3rem solid white;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 30%;
+
+}
+
+.banc_d {
+    position: absolute;
+    width: 5%;
+    height: 10%;
+    left: 87%;
+    top: 35%;
+    background: white;
+    border: 0.3rem solid white;
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
+
+}
+
+.remp_g {
+    position: absolute;
+    width: 6%;
+    height: 20%;
+    left: 87%;
+    top: 12%;
+    border: 0.3rem dashed white;
+}
+
+.remp_d {
+    position: absolute;
+    width: 6%;
+    height: 20%;
+    left: 3%;
+    top: 65%;
+    border: 0.3rem dashed white;
+}

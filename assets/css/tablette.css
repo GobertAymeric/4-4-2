@@ -1,0 +1,277 @@
+/*     Tablette   */
+body {
+    margin: 0;
+    margin-top: -20px;
+}
+
+nav {
+    width: 100%;
+    margin: 0 0;
+    background: burlywood;
+    position: relative;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    float: left;
+    width: 25%;
+    text-align: left;
+    position: relative;
+}
+
+nav ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+.sous {
+    display: none;
+    background-color: white;
+    position: absolute;
+}
+
+nav>ul li:hover .sous {
+    display: block;
+}
+
+.sous li {
+    width: 70%;
+    text-align: center;
+}
+
+.sous a {
+    border-bottom: none;
+}
+
+.deroulant>a::after {
+    content: " ▼";
+    font-size: 10px;
+}
+
+.bord
+{
+    position: absolute;
+    width: 85%;
+    height: 75%;
+    border: 0.5rem solid white;
+    top: 13%;
+    left: 8%;
+}
+
+.rectangle_c {
+    position: absolute;
+    width: 0%;
+    height: 75%;
+    background: white;
+    border: 0.3rem solid white;
+    top: 13%;
+    left: 50%;
+}
+
+.cercle {
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    left: 45%;
+    top: 39.5%;
+    border: 0.4rem solid white;
+    border-radius: 50%;
+}
+
+.point_c {
+    position: absolute;
+    width: 1%;
+    height: 2%;
+    left: 49.75%;
+    top: 49%;
+    background: white;
+    border-radius: 50%;
+}
+
+.g_rectangle_g {
+    position: absolute;
+    width: 10%;
+    height: 30%;
+    left: 8%;
+    top: 35%;
+    border: 0.5rem solid white;
+}
+
+.g_rectangle_d {
+    position: absolute;
+    width: 10%;
+    height: 30%;
+    left: 83%;
+    top: 35%;
+    border: 0.5rem solid white;
+}
+
+.p_rectangle_g {
+    position: absolute;
+    width: 5%;
+    height: 15%;
+    left: 8%;
+    top: 42.5%;
+    border: 0.5rem solid white;
+}
+
+.p_rectangle_d {
+    position: absolute;
+    width: 5%;
+    height: 15%;
+    left: 88%;
+    top: 42.5%;
+    border: 0.5rem solid white;
+}
+
+.but_g {
+    position: absolute;
+    width: 3%;
+    height: 10%;
+    left: 4.5%;
+    top: 45%;
+    border: 0.4rem solid white;
+}
+
+.but_d {
+    position: absolute;
+    width: 3%;
+    height: 10%;
+    left: 93.6%;
+    top: 45%;
+    border: 0.4rem solid white;
+}
+
+.penalty_g {
+    position: absolute;
+    width: 1%;
+    height: 2%;
+    left: 16%;
+    top: 49%;
+    background: white;
+    border-radius: 50%;
+}
+
+.penalty_d {
+    position: absolute;
+    width: 1%;
+    height: 2%;
+    left: 85%;
+    top: 49%;
+    background: white;
+    border-radius: 50%;
+}
+
+.demi_cercle_g {
+    position: absolute;
+    height:10%;
+    width:2%;
+    border-radius: 5rem 0 0 5rem;
+    top: 44.5%;
+    left: 18.5%;
+    border: 0.4rem solid white;
+}
+
+.demi_cercle_d {
+    position: absolute;
+    height:10%;
+    width:2%;
+    border-radius: 5rem 0 0 5rem;
+    top: 44.5%;
+    left: 80.7%;
+    border: 0.4rem solid white;
+}
+
+.corner_hg {
+    position: absolute;
+    width: 2%;
+    height: 3%;
+    border: solid 0.4rem white;
+    border-radius: 50% 0 0 0;
+    left:8%;
+    top: 13%;
+}
+
+.corner_hd {
+    position: absolute;
+    width: 2%;
+    height: 3%;
+    border: solid 0.4rem white;
+    border-radius: 0 0 0 50%;
+    left: 91%;
+    top: 13%;
+}
+
+.corner_bd {
+    position: absolute;
+    width: 2%;
+    height: 3%;
+    border: solid 0.4rem white;
+    border-radius: 50% 0 0 0;
+    left: 91%;
+    top: 85.4%;
+}
+
+.corner_bg {
+    position: absolute;
+    width: 2%;
+    height: 3%;
+    border: solid 0.4rem white;
+    border-radius: 0 0 0 50%;
+    left: 8%;
+    top: 85.4%;
+}
+
+.banc_g {
+    position: absolute;
+    width: 4%;
+    height: 4%;
+    left: 56%;
+    top: 92%;
+    background: white;
+    border: 0.4rem solid white;
+    border-radius: 25% 25% 0 0;
+
+}
+
+.banc_d {
+    position: absolute;
+    width: 4%;
+    height: 4%;
+    left: 43%;
+    top: 6%;
+    background: white;
+    border: 0.4rem solid white;
+    border-radius: 0 0 25% 25%;
+
+}
+
+.remp_g {
+    position: absolute;
+    width: 25%;
+    height: 6%;
+    left: 62%;
+    top: 91%;
+    border: 0.4rem dashed white;
+}
+
+.remp_d {
+    position: absolute;
+    width: 25%;
+    height: 6%;
+    left: 16%;
+    top: 5%;
+    border: 0.4rem dashed white;
+}
