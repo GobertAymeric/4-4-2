@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,63 +8,165 @@
 
     <!--    CSS    -->
     <link rel="stylesheet" href="assets\css\style.css" type="text/css">
-    <link rel="stylesheet" media="screen and (min-width: 601px)" href="assets/css/tablette.css">
+    <link rel="stylesheet" href="assets\css\wickedcss.min.css">
+
+    <!--     JavaScript    -->
+    <script src="assets/js/main.js"></script>
 
 </head>
+
 <body>
     <header>
-        <nav>
-            <ul>
-                <li class="deroulant"><a href="#" id="domicile">Domicile &ensp;</a>
-                    <ul class="sous">
-                        <li><a href="#">4-4-2</a></li>
-                        <li><a href="#">4-3-3</a></li>
-                        <li><a href="#">4-2-3-1</a></li>
-                        <li><a href="#">5-3-2</a></li>
-                        <li><a href="#">3-5-2</a></li>
-                        <li><a href="#">5-4-1</a></li>
-                        <li><a href="#">3-4-3</a></li>
-                    </ul>
-                </li>
-                <li class="deroulant"><a href="#" id="exterieur"> Exterieur &ensp;</a>
-                    <ul class="sous">
-                        <li><a href="#">4-4-2</a></li>
-                        <li><a href="#">4-3-3</a></li>
-                        <li><a href="#">4-2-3-1</a></li>
-                        <li><a href="#">5-3-2</a></li>
-                        <li><a href="#">3-5-2</a></li>
-                        <li><a href="#">5-4-1</a></li>
-                        <li><a href="#">3-4-3</a></li>  
-                    </ul>
-                </li>
-                <li class="deroulant"><a href="#" id="attaque"> Attaque &ensp;</a>
-                    <ul class="sous">
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>  
-                    </ul>
-                </li>
-                <li class="deroulant"><a href="#" id="defense"> Defense &ensp;</a>
-                    <ul class="sous">
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>  
-                    </ul>
-                </li>
-            </ul>
-        </nav>
+        <div id="main">
+            <button class="openbtn" onclick="openNav()">&#9776; Menu</button>
+        </div>
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <h1>Formations Domicile</h1>
+            <a href="#">4-4-2</a>
+            <a href="#">4-3-3</a>
+            <a href="#">4-2-3-1</a>
+            <a href="#">5-3-2</a>
+            <a href="#">3-5-2</a>
+            <a href="#">5-4-1</a>
+            <a href="#">3-4-3</a>
+        </div>
     </header>
+
+    <div class="joueur_dom">
+
+        <div class="joueur_1">
+            <img src="assets/images/maillot_domicile.png" alt="Maillot Domicile">
+        </div>
+
+        <div class="joueur_2">
+            <img src="assets/images/maillot_domicile.png" alt="Maillot Domicile">
+        </div>
+
+        <div class="joueur_3">
+            <img src="assets/images/maillot_domicile.png" alt="Maillot Domicile">
+        </div>
+
+        <div class="joueur_4">
+            <img src="assets/images/maillot_domicile.png" alt="Maillot Domicile">
+        </div>
+
+        <div class="joueur_5">
+            <img src="assets/images/maillot_domicile.png" alt="Maillot Domicile">
+        </div>
+
+        <div class="joueur_6">
+            <img src="assets/images/maillot_domicile.png" alt="Maillot Domicile">
+        </div>
+
+        <div class="joueur_7">
+            <img src="assets/images/maillot_domicile.png" alt="Maillot Domicile">
+        </div>
+
+        <div class="joueur_8">
+            <img src="assets/images/maillot_domicile.png" alt="Maillot Domicile">
+        </div>
+
+        <div class="joueur_9">
+            <img src="assets/images/maillot_domicile.png" alt="Maillot Domicile">
+        </div>
+
+        <div class="joueur_10">
+            <img src="assets/images/maillot_domicile.png" alt="Maillot Domicile">
+        </div>
+
+        <div class="joueur_11">
+            <img src="assets/images/maillot_domicile.png" alt="Maillot Domicile">
+        </div>
+
+        <div class="joueur_12">
+            <img src="assets/images/maillot_domicile.png" alt="Maillot Domicile">
+        </div>
+
+        <div class="joueur_13">
+            <img src="assets/images/maillot_domicile.png" alt="Maillot Domicile">
+        </div>
+
+        <div class="joueur_14">
+            <img src="assets/images/maillot_domicile.png" alt="Maillot Domicile">
+        </div>
+
+        <div class="joueur_15">
+            <img src="assets/images/maillot_domicile.png" alt="Maillot Domicile">
+        </div>
+
+    </div>
+
+    <div class="joueur_ext">
+        <div class="joueur_16">
+            <img src="assets/images/maillot_exterieur.png" alt="Maillot Exterieur">
+        </div>
+
+        <div class="joueur_17">
+            <img src="assets/images/maillot_exterieur.png" alt="Maillot Exterieur">
+        </div>
+
+        <div class="joueur_18">
+            <img src="assets/images/maillot_exterieur.png" alt="Maillot Exterieur">
+        </div>
+
+        <div class="joueur_19">
+            <img src="assets/images/maillot_exterieur.png" alt="Maillot Exterieur">
+        </div>
+
+        <div class="joueur_20">
+            <img src="assets/images/maillot_exterieur.png" alt="Maillot Exterieur">
+        </div>
+
+        <div class="joueur_21">
+            <img src="assets/images/maillot_exterieur.png" alt="Maillot Exterieur">
+        </div>
+
+        <div class="joueur_22">
+            <img src="assets/images/maillot_exterieur.png" alt="Maillot Exterieur">
+        </div>
+
+        <div class="joueur_23">
+            <img src="assets/images/maillot_exterieur.png" alt="Maillot Exterieur">
+        </div>
+
+        <div class="joueur_24">
+            <img src="assets/images/maillot_exterieur.png" alt="Maillot Exterieur">
+        </div>
+
+        <div class="joueur_25">
+            <img src="assets/images/maillot_exterieur.png" alt="Maillot Exterieur">
+        </div>
+
+        <div class="joueur_26">
+            <img src="assets/images/maillot_exterieur.png" alt="Maillot Exterieur">
+        </div>
+
+        <div class="joueur_27">
+            <img src="assets/images/maillot_exterieur.png" alt="Maillot Exterieur">
+        </div>
+
+        <div class="joueur_28">
+            <img src="assets/images/maillot_exterieur.png" alt="Maillot Exterieur">
+        </div>
+
+        <div class="joueur_29">
+            <img src="assets/images/maillot_exterieur.png" alt="Maillot Exterieur">
+        </div>
+
+        <div class="joueur_30">
+            <img src="assets/images/maillot_exterieur.png" alt="Maillot Exterieur">
+        </div>
+
+    </div>
+    
+   <div class="ballon">    
+        <img src="assets\images\ballon.png" class="spinner" alt="Ballon">
+   </div>
+
     <div class="terrain">
 
-        <div class="bord"></div> 
+        <div class="bord"></div>
 
         <div class="rectangle_c"></div>
 
@@ -106,8 +209,9 @@
         <div class="remp_g"></div>
 
         <div class="remp_d"></div>
-    
-    </div>      
-        
+
+    </div>
+
 </body>
+
 </html>

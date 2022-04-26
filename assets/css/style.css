@@ -6,8 +6,66 @@ body {
     background-attachment: fixed;
 }
 
-.bord
-{
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidebar h1 {
+    color: white;
+    margin-left: 10%;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    margin-left: 10%;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+
+.bord {
     position: absolute;
     width: 70%;
     height: 85%;
@@ -138,7 +196,7 @@ body {
     width: 10%;
     border-top-left-radius: 100%;
     border-top-right-radius: 100%;
-    left: 43%;
+    left: 44%;
     top: 82.3%;
     border: 0.3rem solid white;
 }
@@ -230,3 +288,750 @@ body {
     top: 65%;
     border: 0.3rem dashed white;
 }
+
+img {
+    width: 8%;
+    height: auto;
+}
+
+.joueur_1 img {
+    position: absolute;
+    top: 5%;
+    left: 46%;
+    z-index: 10;
+}
+
+.joueur_2 img {
+    position: absolute;
+    top: 9%;
+    left: 37%;
+    z-index: 10;
+}
+
+.joueur_3 img {
+    position: absolute;
+    top: 9%;
+    left: 53%;
+    z-index: 10;
+}
+
+.joueur_4 img {
+    position: absolute;
+    top: 15%;
+    left: 28%;
+    z-index: 10;
+}
+
+.joueur_5 img {
+    position: absolute;
+    top: 15%;
+    left: 60%;
+    z-index: 10;
+}
+
+.joueur_6 img {
+    position: absolute;
+    top: 23%;
+    left: 37%;
+    z-index: 10;
+}
+
+.joueur_7 img {
+    position: absolute;
+    top: 23%;
+    left: 53%;
+    z-index: 10;
+}
+
+.joueur_8 img {
+    position: absolute;
+    top: 30%;
+    left: 28%;
+    z-index: 10;
+}
+
+.joueur_9 img {
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    z-index: 10;
+}
+
+.joueur_10 img {
+    position: absolute;
+    top: 42%;
+    left: 40%;
+    z-index: 10;
+}
+
+.joueur_11 img {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    z-index: 10;
+}
+
+.joueur_12 img {
+    position: absolute;
+    top: 27%;
+    left: 87%;
+    z-index: 10;
+}
+
+.joueur_13 img {
+    position: absolute;
+    top: 22%;
+    left: 87%;
+    z-index: 10;
+}
+
+.joueur_14 img {
+    position: absolute;
+    top: 17%;
+    left: 87%;
+    z-index: 10;
+}
+
+.joueur_15 img {
+    position: absolute;
+    top: 12%;
+    left: 87%;
+    z-index: 10;
+}
+
+.joueur_16 img {
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    z-index: 10;
+}
+
+.joueur_17 img {
+    position: absolute;
+    top: 50%;
+    left: 37%;
+    z-index: 10;
+}
+
+.joueur_18 img {
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    z-index: 10;
+}
+
+.joueur_19 img {
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    z-index: 10;
+}
+
+.joueur_20 img {
+    position: absolute;
+    top: 67%;
+    left: 54%;
+    z-index: 10;
+}
+
+.joueur_21 img {
+    position: absolute;
+    top: 67%;
+    left: 37%;
+    z-index: 10;
+}
+
+.joueur_22 img {
+    position: absolute;
+    top: 76%;
+    left: 60%;
+    z-index: 10;
+}
+
+.joueur_23 img {
+    position: absolute;
+    top: 76%;
+    left: 31%;
+    z-index: 10;
+}
+
+.joueur_24 img {
+    position: absolute;
+    top: 82%;
+    left: 38%;
+    z-index: 10;
+}
+
+.joueur_25 img {
+    position: absolute;
+    top: 82%;
+    left: 53%;
+    z-index: 10;
+}
+
+.joueur_26 img {
+    position: absolute;
+    top: 87%;
+    left: 46%;
+    z-index: 10;
+}
+
+.joueur_27 img {
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    z-index: 10;
+}
+
+.joueur_28 img {
+    position: absolute;
+    top: 75%;
+    left: 3%;
+    z-index: 10;
+}
+
+.joueur_29 img {
+    position: absolute;
+    top: 70%;
+    left: 3%;
+    z-index: 10;
+}
+
+.joueur_30 img {
+    position: absolute;
+    top: 65%;
+    left: 3%;
+    z-index: 10;
+}
+
+.ballon img{
+    width: 6%;
+    height: auto;
+    position: absolute;
+    top: 45%;
+    left: 46%;
+    z-index: 10;
+}
+
+@media screen and (min-width: 701px) {
+
+    /*     Tablette   */
+    body {
+        margin: 0;
+        margin-top: -20px;
+    }
+
+    .sidebar {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        padding-top: 60px;
+        transition: 0.5s;
+    }
+
+    .sidebar h1 {
+        color: white;
+        margin-left: 10%;
+    }
+
+    .sidebar a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+        margin-left: 10%;
+    }
+
+    .sidebar a:hover {
+        color: #f1f1f1;
+    }
+
+    .sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+    .openbtn {
+        font-size: 20px;
+        cursor: pointer;
+        background-color: #111;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+    }
+
+    .openbtn:hover {
+        background-color: #444;
+    }
+
+    #main {
+        transition: margin-left .5s;
+        padding: 20px;
+    }
+
+    .bord {
+        position: absolute;
+        width: 85%;
+        height: 75%;
+        border: 0.5rem solid white;
+        top: 13%;
+        left: 8%;
+    }
+
+    .rectangle_c {
+        position: absolute;
+        width: 0%;
+        height: 75%;
+        background: white;
+        border: 0.3rem solid white;
+        top: 13%;
+        left: 50%;
+    }
+
+    .cercle {
+        position: absolute;
+        width: 10%;
+        height: 20%;
+        left: 45%;
+        top: 39.5%;
+        border: 0.4rem solid white;
+        border-radius: 50%;
+    }
+
+    .point_c {
+        position: absolute;
+        width: 1%;
+        height: 2%;
+        left: 49.75%;
+        top: 49%;
+        background: white;
+        border-radius: 50%;
+    }
+
+    .g_rectangle_g {
+        position: absolute;
+        width: 10%;
+        height: 30%;
+        left: 8%;
+        top: 35%;
+        border: 0.5rem solid white;
+    }
+
+    .g_rectangle_d {
+        position: absolute;
+        width: 10%;
+        height: 30%;
+        left: 83%;
+        top: 35%;
+        border: 0.5rem solid white;
+    }
+
+    .p_rectangle_g {
+        position: absolute;
+        width: 5%;
+        height: 15%;
+        left: 8%;
+        top: 42.5%;
+        border: 0.5rem solid white;
+    }
+
+    .p_rectangle_d {
+        position: absolute;
+        width: 5%;
+        height: 15%;
+        left: 88%;
+        top: 42.5%;
+        border: 0.5rem solid white;
+    }
+
+    .but_g {
+        position: absolute;
+        width: 3%;
+        height: 10%;
+        left: 4.5%;
+        top: 45%;
+        border: 0.4rem solid white;
+    }
+
+    .but_d {
+        position: absolute;
+        width: 3%;
+        height: 10%;
+        left: 93.6%;
+        top: 45%;
+        border: 0.4rem solid white;
+    }
+
+    .penalty_g {
+        position: absolute;
+        width: 1%;
+        height: 2%;
+        left: 16%;
+        top: 49%;
+        background: white;
+        border-radius: 50%;
+    }
+
+    .penalty_d {
+        position: absolute;
+        width: 1%;
+        height: 2%;
+        left: 85%;
+        top: 49%;
+        background: white;
+        border-radius: 50%;
+    }
+
+    .demi_cercle_g {
+        position: absolute;
+        height: 10%;
+        width: 2%;
+        border-radius: 5rem 0 0 5rem;
+        top: 44.5%;
+        left: 18.7%;
+        border: 0.4rem solid white;
+    }
+
+    .demi_cercle_d {
+        position: absolute;
+        height: 10%;
+        width: 2%;
+        border-radius: 5rem 0 0 5rem;
+        top: 44.5%;
+        left: 80.5%;
+        border: 0.4rem solid white;
+    }
+
+    .corner_hg {
+        position: absolute;
+        width: 2%;
+        height: 3%;
+        border: solid 0.4rem white;
+        border-radius: 100% 0 0 0;
+        left: 8%;
+        top: 13%;
+    }
+
+    .corner_hd {
+        position: absolute;
+        width: 2%;
+        height: 3%;
+        border: solid 0.4rem white;
+        border-radius: 0 0 0 100%;
+        left: 91%;
+        top: 13%;
+    }
+
+    .corner_bd {
+        position: absolute;
+        width: 2%;
+        height: 3%;
+        border: solid 0.4rem white;
+        border-radius: 100% 0 0 0;
+        left: 91%;
+        top: 85.4%;
+    }
+
+    .corner_bg {
+        position: absolute;
+        width: 2%;
+        height: 3%;
+        border: solid 0.4rem white;
+        border-radius: 0 0 0 100%;
+        left: 8%;
+        top: 85.4%;
+    }
+
+    .banc_g {
+        position: absolute;
+        width: 4%;
+        height: 4%;
+        left: 56%;
+        top: 92%;
+        background: white;
+        border: 0.4rem solid white;
+        border-radius: 25% 25% 0 0;
+
+    }
+
+    .banc_d {
+        position: absolute;
+        width: 4%;
+        height: 4%;
+        left: 43%;
+        top: 6%;
+        background: white;
+        border: 0.4rem solid white;
+        border-radius: 0 0 25% 25%;
+
+    }
+
+    .remp_g {
+        position: absolute;
+        width: 25%;
+        height: 5%;
+        left: 62%;
+        top: 91%;
+        border: 0.4rem dashed white;
+    }
+
+    .remp_d {
+        position: absolute;
+        width: 25%;
+        height: 5%;
+        left: 16%;
+        top: 6%;
+        border: 0.4rem dashed white;
+    }
+
+    img {
+        width: 4%;
+        height: auto;
+    }
+
+    .joueur_dom img {
+        transform: rotate(270deg);
+    }
+
+    .joueur_1 img {
+        position: absolute;
+        top: 47%;
+        left: 8%;
+        z-index: 10;
+    }
+    
+    .joueur_2 img {
+        position: absolute;
+        top: 35%;
+        left: 15%;
+        z-index: 10;
+    }
+    
+    .joueur_3 img {
+        position: absolute;
+        top: 58%;
+        left: 15%;
+        z-index: 10;
+    }
+    
+    .joueur_4 img {
+        position: absolute;
+        top: 25%;
+        left: 20%;
+        z-index: 10;
+    }
+    
+    .joueur_5 img {
+        position: absolute;
+        top: 70%;
+        left: 20%;
+        z-index: 10;
+    }
+    
+    .joueur_6 img {
+        position: absolute;
+        top: 37%;
+        left: 27%;
+        z-index: 10;
+    }
+    
+    .joueur_7 img {
+        position: absolute;
+        top: 60%;
+        left: 27%;
+        z-index: 10;
+    }
+    
+    .joueur_8 img {
+        position: absolute;
+        top: 25%;
+        left: 35%;
+        z-index: 10;
+    }
+    
+    .joueur_9 img {
+        position: absolute;
+        top: 70%;
+        left: 35%;
+        z-index: 10;
+    }
+    
+    .joueur_10 img {
+        position: absolute;
+        top: 40%;
+        left: 45%;
+        z-index: 10;
+    }
+    
+    .joueur_11 img {
+        position: absolute;
+        top: 55%;
+        left: 45%;
+        z-index: 10;
+    }
+    
+    .joueur_12 img {
+        position: absolute;
+        top: 7%;
+        left: 17%;
+        z-index: 10;
+        transform: rotate(0deg);
+    }
+    
+    .joueur_13 img {
+        position: absolute;
+        top: 7%;
+        left: 24%;
+        z-index: 10;
+        transform: rotate(0deg);
+    }
+    
+    .joueur_14 img {
+        position: absolute;
+        top: 7%;
+        left: 30%;
+        z-index: 10;
+        transform: rotate(0deg);
+    }
+    
+    .joueur_15 img {
+        position: absolute;
+        top: 7%;
+        left: 36%;
+        z-index: 10;
+        transform: rotate(0deg);
+    }
+
+    .joueur_ext img {
+        transform: rotate(90deg);
+    }
+    
+    .joueur_16 img {
+        position: absolute;
+        top: 46%;
+        left: 89%;
+        z-index: 10;
+    }
+    
+    .joueur_17 img {
+        position: absolute;
+        top:37%;
+        left: 82%;
+        z-index: 10;
+    }
+    
+    .joueur_18 img {
+        position: absolute;
+        top: 60%;
+        left: 82%;
+        z-index: 10;
+    }
+    
+    .joueur_19 img {
+        position: absolute;
+        top: 30%;
+        left: 75%;
+        z-index: 10;
+    }
+    
+    .joueur_20 img {
+        position: absolute;
+        top: 65%;
+        left: 75%;
+        z-index: 10;
+    }
+    
+    .joueur_21 img {
+        position: absolute;
+        top: 37%;
+        left: 68%;
+        z-index: 10;
+    }
+    
+    .joueur_22 img {
+        position: absolute;
+        top: 60%;
+        left: 68%;
+        z-index: 10;
+    }
+    
+    .joueur_23 img {
+        position: absolute;
+        top: 30%;
+        left: 62%;
+        z-index: 10;
+    }
+    
+    .joueur_24 img {
+        position: absolute;
+        top: 65%;
+        left: 60%;
+        z-index: 10;
+    }
+    
+    .joueur_25 img {
+        position: absolute;
+        top: 40%;
+        left: 55%;
+        z-index: 10;
+    }
+    
+    .joueur_26 img {
+        position: absolute;
+        top: 55%;
+        left: 55%;
+        z-index: 10;
+    }
+    
+    .joueur_27 img {
+        position: absolute;
+        top: 92%;
+        left: 63%;
+        z-index: 10;
+        transform: rotate(0deg);
+    }
+    
+    .joueur_28 img {
+        position: absolute;
+        top: 92%;
+        left: 70%;
+        z-index: 10;
+        transform: rotate(0deg);
+    }
+    
+    .joueur_29 img {
+        position: absolute;
+        top: 92%;
+        left: 76%;
+        z-index: 10;
+        transform: rotate(0deg);
+    }
+    
+    .joueur_30 img {
+        position: absolute;
+        top: 92%;
+        left: 82%;
+        z-index: 10;
+        transform: rotate(0deg);
+    }
+    
+    .ballon img {
+        width: 4%;
+        height: auto;
+        position: absolute;
+        top: 46%;
+        left: 48%;
+        z-index: 10;
+    }
+}
+
