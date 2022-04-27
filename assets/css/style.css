@@ -882,7 +882,7 @@ img {
     
     .joueur_12 img {
         position: absolute;
-        top: 7%;
+        top: 5%;
         left: 17%;
         z-index: 10;
         transform: rotate(0deg);
@@ -890,7 +890,7 @@ img {
     
     .joueur_13 img {
         position: absolute;
-        top: 7%;
+        top: 5%;
         left: 24%;
         z-index: 10;
         transform: rotate(0deg);
@@ -898,7 +898,7 @@ img {
     
     .joueur_14 img {
         position: absolute;
-        top: 7%;
+        top: 5%;
         left: 30%;
         z-index: 10;
         transform: rotate(0deg);
@@ -906,7 +906,7 @@ img {
     
     .joueur_15 img {
         position: absolute;
-        top: 7%;
+        top: 5%;
         left: 36%;
         z-index: 10;
         transform: rotate(0deg);
@@ -995,7 +995,7 @@ img {
     
     .joueur_27 img {
         position: absolute;
-        top: 92%;
+        top: 90%;
         left: 63%;
         z-index: 10;
         transform: rotate(0deg);
@@ -1003,7 +1003,7 @@ img {
     
     .joueur_28 img {
         position: absolute;
-        top: 92%;
+        top: 90%;
         left: 70%;
         z-index: 10;
         transform: rotate(0deg);
@@ -1011,7 +1011,7 @@ img {
     
     .joueur_29 img {
         position: absolute;
-        top: 92%;
+        top: 90%;
         left: 76%;
         z-index: 10;
         transform: rotate(0deg);
@@ -1019,7 +1019,7 @@ img {
     
     .joueur_30 img {
         position: absolute;
-        top: 92%;
+        top: 90%;
         left: 82%;
         z-index: 10;
         transform: rotate(0deg);
